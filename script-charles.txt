@@ -1,0 +1,14 @@
+execute 'whereis charles'
+entre no arquivo de configuração
+
+modifique a seção 'launch charles'
+
+adicione as configurações abaixo
+
+-Xmx4000M \
+-Dawt.useSystemAAFontSetting=on \
+-Dswing.aatext=true \
+-Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel \
+-Dswing.crossplatformlaf=com.sun.java.swing.plaf.GTKLookAndFeel \
+-Dsun.java2d.uiScale=100% \
+
